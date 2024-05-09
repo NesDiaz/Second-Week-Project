@@ -293,7 +293,7 @@ button, [role="button"] {
 }
 
 .hamburger .bar:before .is-active{
-    transform:translateY(8px) rotate(45deg);
+    transform: rotate(-45deg)translate(-8px, 6px);
 }
 
 .hamburger.is-active .bar{
@@ -301,8 +301,8 @@ button, [role="button"] {
     background-color: #531dc1;
 }
 
-.hamburger:after .is-active .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
+.hamburger:after .is-active .bar {
+    transform: rotate(45deg) translate(-9px, -8px);
 }
 
 .mobile-nav {
